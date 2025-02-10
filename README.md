@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in a PHP function designed to remove duplicate values from an array while preserving original keys. The function uses in_array() for duplicate detection, which leads to unexpected behavior when duplicate values have different keys. The bug is shown in 'bug.php' and the solution is given in 'bugSolution.php'.
